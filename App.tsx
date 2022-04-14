@@ -1,12 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import MainNavigation from './src/navigation/MainNavigation';
 
-const App = () => {
-  return (
-    <View style={StyleSheet.absoluteFill}>
-      <Text>App</Text>
-    </View>
-  );
-};
+const App = () => <MainNavigation />;
 
 export default App;
